@@ -1,0 +1,24 @@
+name: adv_vae
+channels:
+  - pytorch
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - pandas
+  - pytorch=1.7.1
+  - torchvision=0.8.2
+  - notebook
+  - matplotlib
+  - wandb
+  - scikit-learn
+  - tqdm
+  - pytorch-lightning=1.2.0
+  - tensorboardx
+  - pip=20.3.3
+#  - cudatoolkit=10.1
+  - pip:
+      - ml-collections==0.1.0
