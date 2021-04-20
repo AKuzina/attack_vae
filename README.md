@@ -9,7 +9,8 @@ This repository contains the source code from the paper:
 
 <img src="img/intro_im.png" alt="superised attack" width="700"/>
 
-We also show that deep hierarchical models are subject to the same adversarial attacks
+Below we provide examples of adversarial attacks on NVAE. 
+The first column depicts target images, then we plot adversarial inputs  (on the left, with yellow background) and its reconstructions (on the right). 
 <table><tr>
 <td> <img src="img/nvae_Target.png" alt="Drawing" style="width: 100px;"/> </td>
 <td> <img src="img/Sup_sample_c1.png" alt="Drawing" style="width: 200px;"/> </td>
@@ -27,8 +28,9 @@ conda env create -f conda_requirements.yaml
 This will create the conda environment `adv_vae` with the correct dependencies.
 
 #### Experiments 
-Specifications on the parameters specified via the `argsparser` can be found in the corresponding `config.py` file.
-We use [wandb](https://wandb.ai) to track th eexperiments. Specify you API key and user name in th files `run_experiments.py`, `run_attack.py` and `utils/wandb.py` before running the experiments.  
+Parameters which can be specified via the `argsparser` can be found in the corresponding `config.py` file.
+
+We use [wandb](https://wandb.ai) to track the experiments. Specify you API key and user name in th files `run_experiments.py`, `run_attack.py` and `utils/wandb.py` before running the experiments below.  
 
 1. Train VAE
 ```
