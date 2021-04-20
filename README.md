@@ -7,7 +7,15 @@ This repository contains the source code from the paper:
 #### Abstract
 *In this work, we explore adversarial attacks on the Variational Autoencoders (VAE). We show how to modify data point to obtain a prescribed latent code (supervised attack) or just get a drastically different code (unsupervised attack). We examine the influence of model modifications ($\beta$-VAE, NVAE) on the robustness of VAEs and suggest metrics to quantify it.*
 
-<img src="img/intro_im.png" alt="superised attack" width="750"/>
+<img src="img/intro_im.png" alt="superised attack" width="700"/>
+
+We also show that deep hierarchical models are subject to the same adversarial attacks
+<table><tr>
+<td> <img src="img/nvae_Target.png" alt="Drawing" style="width: 100px;"/> </td>
+<td> <img src="img/Sup_sample_c1.png" alt="Drawing" style="width: 200px;"/> </td>
+<td> <img src="img/Sup_sample_c2.png" alt="Drawing" style="width: 200px;"/> </td>
+<td> <img src="img/Sup_sample_c4.png" alt="Drawing" style="width: 200px;"/> </td>
+</tr></table>
 
 ### Reproduce
 
