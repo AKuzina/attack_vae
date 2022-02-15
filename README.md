@@ -52,7 +52,7 @@ If you found this work useful in your research, please consider citing:
 	title={Diagnosing Vulnerability of Variational Auto-Encoders to Adversarial Attacks},
 	author={Kuzina, Anna and Welling, Max and Tomczak, Jakub M},
 	year={2021},
-    journal={arXiv preprint arXiv:2103.06701},
+    journal={RobustML Workshop@ICLR 2021},
 }
 ```
 
